@@ -1,0 +1,19 @@
+
+
+.field {
+    width: 200px;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}

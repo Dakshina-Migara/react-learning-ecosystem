@@ -1,0 +1,32 @@
+.headDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 100px;
+    gap: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #dbbaba;
+    width: 300px;
+
+}
+
+.head {
+    text-align: center;
+}
+
+.names {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.title {
+    font-size: 0.9rem;
+    color: #3f179a;
+    margin-top: 20px;
+    padding: 0;
+}
