@@ -5,6 +5,7 @@ import Register from '../pages/Register/Register'
 import Drawer from '../pages/Drawer/Drawer'
 import Login from '../pages/Login/Login'
 import { Navigate, Route, Routes } from 'react-router-dom'
+import Home from '../pages/Home/Home'
 
 
 function App() {
@@ -26,9 +27,10 @@ function App() {
           <Drawer />
           :
           <Routes>
-            <Route path='*' element={<Navigate to={'/login'} />}></Route>
+            <Route path='*' element={<Navigate to={'/home'} />}></Route>
             <Route path='/login' element={<Login />}></Route>
             <Route path='/register' element={<Register />}></Route>
+            <Route path='/home' element={<Home />}></Route>
           </Routes>
       }
     </>
